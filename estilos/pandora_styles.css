@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.scrollText{
+	position: relative;	
+  overflow: auto;
+	height: 850px;
+ 	padding: 5px 40px;
+ 	line-height: 1.6em;
+ 	text-align: justify;
+}
+
+.no-gutters {
+ 	margin-right: 0;
+ 	margin-left: 0;
+}
+
+.title-documentation{
+	color: #CF649A;
+}
+
+.main-section h2{
+	color: #6B717F;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-section p{
+	color: #6B717F;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+
+pre{
+	background-color: #1B1B32;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+pre code{
+	color: #FFF;
+}
