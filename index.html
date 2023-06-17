@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Sass Documentation</title>
+
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	
+	<link rel="stylesheet" href="../../estilos/sass_documentation_estilo.css">
+</head>
+<body>
+	<main id="main-doc">
+		<!-- Navegation -->
+		<div class="container-fluid py-lg-0 mt-3">	
+			<div class='row no-gutters'>
+  			
+  			<div class='col-sm-4 col-md-4 col-xl-2'>
+					<nav id="navbar" role="tablist" class="nav nav-tabs navbar-vertical-expand-lg navbar-light bg-light ml-2'">
+						<div class="container-xl">
+							<header class="title-documentation"><h2>PANDORA</h2></header>
+							<ul class="navbar-nav">
+								<li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+	
+				<div class='col-sm-8 col-md-8 col-xl-10 border-left'>	
+					<div data-spy="scroll" data-target="#nav-bar" data-offset="0" class="scrollText">
+					
+					<section class="main-section" id="introduction">
+						<header><h2>Introduction</h2></header></p>
+
+						<p>References:</p>
+						<ul class="list-group mb-3 text-center">
+							<li class="list-group-item"><a href="" target="_blank"></a></li>
+							<li class="list-group-item"><a href="" target="_blank"></a></li>
+							<li class="list-group-item"><a href="" target="_blank"></a></li>
+						</ul>
+
+					</section>
+					
+					<section class="main-section" id="variables">
+						<header><h2>Variables</h2></header>
+						<p></p>
+						
+						<pre><code>$main-fonts: Arial, sans-serif;
+$headings-color: green;
+h1{
+font-family: $main-fonts;
+color: green;
+}</code></pre>
+						<strong> One example where variables are useful is when a number of elements need to be the same color. If that color is changed, the only place to edit the code is the variable value. </strong>
+
+					</section>
+					<br />
+
+					<section class="main-section" id="nest_css">
+						<header><h2>Nest CSS</h2></header>
+						<p>Sass allows nesting of CSS rules, which is a useful way of organizing a style sheet. Normally, each element is targeted on a different line to style it, like so:</p>
+						<pre><code>nav{
+background-color: red;
+}
+nav ul{
+list-style: none;
+}
+nav ul li{
+display: inline-block;
+}</code></pre>
+						<p>For a large project, the CSS file will have many lines and rules. This is where nesting can help organize your code by placing child style rules within the respective parent elements:</p>
+						<pre><code>
+nav {
+  background-color: red;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+}							
+</code></pre>
+
+
+					</section>
+					
+					<section class="main-section" id="reusable_css">
+						<header><h2>Reusable CSS</h2></header>
+						<p>In Sass, a mixin is a group of CSS declarations that can be reused throughout the style sheet. Newer CSS features take time before they are fully adopted and ready to use in all browsers. As features are added to browsers, CSS rules using them may need vendor prefixes. Consider "box-shadow":</p>
+						<pre><code>
+div {
+  -webkit-box-shadow: 0px 0px 4px #fff;
+  -moz-box-shadow: 0px 0px 4px #fff;
+  -ms-box-shadow: 0px 0px 4px #fff;
+  box-shadow: 0px 0px 4px #fff;
+}
+						</code></pre>
+						<p>It's a lot of typing to re-write this rule for all the elements that have a box-shadow, or to change each value to test different effects. Mixins are like functions for CSS. Here is how to write one:</p>
+						<pre><code>
+@mixin box-shadow($x, $y, $blur, $c){ 
+  -webkit-box-shadow: $x $y $blur $c;
+  -moz-box-shadow: $x $y $blur $c;
+  -ms-box-shadow: $x $y $blur $c;
+  box-shadow: $x $y $blur $c;
+}</code></pre>
+						<p>The definition starts with @mixin followed by a custom name. The parameters (the $x, $y, $blur, and $c in the example above) are optional. Now any time a box-shadow rule is needed, only a single line calling the mixin replaces having to type all the vendor prefixes. A mixin is called with the @include directive:</p>
+						<pre><code>
+div {
+  @include box-shadow(0px, 0px, 4px, #fff);
+}							
+						</code></pre>
+					</section>
+					
+					<section class="main-section" id="split_your_styles">
+
+					</section>
+
+					<section class="main-section" id="sass_function">
+							<header><h2>Sass Function</h2></header>
+							<ul>
+								<li>Sass String</li>
+								<li>Sass Numeric</li>
+								<li>Sass List</li>
+								<li>Sass Map</li>
+								<li>Sass Selector</li>
+								<li>Sass Introspection</li>
+								<li>Sass Color</li>
+							</ul>	
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	</body>
+</html>
