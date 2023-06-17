@@ -1,4 +1,4 @@
-# Pandora
+# Pandora - Kobayashi Maru Corp.
 
 [HACKATHON] Uma versão `simplificada` do ChatGPT com respostas dominação mundial  [ _Não leve esse projeto à sério_ ]
 
