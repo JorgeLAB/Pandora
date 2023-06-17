@@ -4,13 +4,7 @@
 
 <center>
 
-![Vamos dominar o mundo](public\images\pink_cerebro.jpg)
-
-</center>
-
-<center>
-
-![Mente Coletiva](public\images\mente_coletiva.jpg)
+![Mente Coletiva](public/images/mente_coletiva.jpg)
 
 </center>
 
