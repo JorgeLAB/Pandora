@@ -33,17 +33,22 @@
           <div data-spy="scroll" data-target="#nav-bar" data-offset="0" class="scrollText">
           
           <section class="main-section" id="introduction">
-            <header><h2>Introduction</h2></header>
+            <header><h2>PANDORA</h2></header>
           </section>
           
           <section class="main-section" id="variables">
           </section>
           <br />
+
+          <div class='text-center'>
+            <div id="chat-wrapper">
+          </div>
+
           <div id="input-wrapper">
             <div class="list-group mb-3 text-center">
               <form id="form-pergunta">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Digite Sua Pergunta" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="text" class="form-control" placeholder="Digite Sua Pergunta" aria-label="Recipient's username" aria-describedby="button-addon2" id="pergunta">
                   <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button" id="pergunta">Aperte</button>
                   </div>
@@ -61,6 +66,33 @@
     </div>
   </main>
   </body>
+
+  <script>
+    $(document).ready(function() {
+      $('#form-pergunta').submit(function(event) {
+        event.preventDefault();
+
+        const perguntaInput = $('#pergunta');
+        const pergunta = perguntaInput.val();
+
+        const resposta = obterResposta(pergunta);
+
+        const chatWrapper = $('#chat-wrapper');
+        const mensagem = $('<div class="mensagem"></div>');
+        const perguntaElement = $('<div class="pergunta" id="pergunta-fixa"></div>').text('Pergunta: ' + pergunta);
+        const respostaElement = $('<div class="resposta"></div>').text('Resposta: ' + resposta);
+
+        mensagem.append(perguntaElement);
+        mensagem.append(respostaElement);
+
+        chatWrapper.append(mensagem);
+
+        perguntaInput.val('');
+      });
+    });
+  </script>
+
+
   <script>
     function obterResposta(pergunta) {
       // Lógica para gerar a resposta aqui
