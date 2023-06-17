@@ -1,6 +1,6 @@
 # Pandora
 
-[HACKATHON] Uma versão `simplificada` do ChatGPT com respostas dominação mundial  [ _Não leve esse projeto a sério_ ]
+[HACKATHON] Uma versão `simplificada` do ChatGPT com respostas dominação mundial  [ _Não leve esse projeto à sério_ ]
 
 <center>
 
