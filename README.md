@@ -111,3 +111,8 @@ Resposta: Isso mesmo! Prepare-se para uma jornada de descobertas, de conexões e
 Embora a ideia de dominação mundial seja apenas uma brincadeira, a criação da `Pandora` permite que os usuários explorem um cenário fictício de maneira criativa e divertida. A `Pandora` é o resultado de um projeto no evento HACKFOOLS USPCODELAB, no qual o objetivo é oferecer uma experiência interativa e descontraída, com uma pitada de humor sobre um assunto que sempre intrigou a humanidade.
 
 Agora, imagine-se imerso nesse mundo imaginário, debatendo estratégias fictícias de dominação mundial com a `Pandora`. Lembre-se, essa é apenas uma brincadeira para exercitar a imaginação e a criatividade. Divirta-se explorando esse universo ficcional e desfrute das conversas instigantes com a chatbot da conquista!
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
