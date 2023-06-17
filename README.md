@@ -15,10 +15,9 @@ Título: Projeto Pandora
 
 # A Primeira pergunta tem que ser "Olá Mundo"
 
-## Como executar 
+## Como executar PANDORA na web
 
 Execute o arquivo principal em seu browser favorito.
-
 
 Caso prefira executar no terminal.
 
@@ -26,7 +25,19 @@ Caso prefira executar no terminal.
 open index.html
 ```
 
-**Introdução:**
+## Como executar PANDORA no console
+
+Rode: 
+
+```
+python ChatBot.py
+```
+
+<img width="634" alt="image" src="https://github.com/JorgeLAB/Pandora/assets/41846128/9d3c3de1-7f00-4c0e-9212-7ec68b6a8ec5">
+
+
+
+# Introdução:
 
 Bem-vindo, usuário! Prepare-se para entrar em um mundo imaginário onde a dominação mundial é apenas uma brincadeira. Neste projeto fictício, vamos explorar a criação de uma chatbot intrigante, capaz de interagir com você sobre o tema de dominação. Vamos mergulhar nessa aventura com uma pitada de humor e criatividade. Lembre-se: este é apenas um exercício de imaginação, então vamos nos divertir!
 
@@ -40,22 +51,17 @@ A `Pandora` adota uma abordagem interativa e envolvente, incentivando o usuário
 
 A `Pandora` também apresenta uma galeria de personagens fictícios, cada um com sua própria história e motivações. Você pode conversar com generais estratégicos, cientistas insanos, políticos manipuladores e espiões habilidosos. Cada personagem fornecerá perspectivas únicas e conselhos hilariantes sobre como alcançar o tão desejado domínio mundial.
 
-**Técnico** 
+## Técnico
 
-Como é um programa sério nosso programa possui perguntas e respostas fixas: 
+Temos uma fórmula para **Dominar o Mundo**
+Siga essas perguntas ... é sério só temos essas perguntas e respostas.
+Testes as Perguntas. 
 
 ```
-Por que o ditador se tornou um comediante?
-
-Porque ele queria dominar o mundo com suas "piadas de poder"!
-Mas tenho uma estratégia melhor para você! Vamos lá?
-
-Por que o imperador decidiu abrir uma padaria?
-Porque ele queria amassar o pão... e dominar a fermentação mundial!
 
 Resposta: Ei, você aí! Parece que você tem uma veia ambiciosa pulsando dentro de você. Já pensou em dominar o mundo? Ah, imagina só as possibilidades!
 
-Jogador: Dominar o mundo? Sério? Isso parece um pouco... exagerado, não acha?
+Pergunta: Dominar o mundo? Sério? Isso parece um pouco... exagerado, não acha?
 
 Resposta: Exagerado? Que nada! Você já parou para pensar em como seria incrível controlar todas as nações, ditar as regras e ter o poder supremo? Imagine só, você no topo, comandando tudo!
 
