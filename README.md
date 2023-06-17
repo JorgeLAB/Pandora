@@ -13,6 +13,8 @@
 
 Título: Projeto Pandora
 
+# A Primeira pergunta tem que ser "Olá Mundo"
+
 **Introdução:**
 
 Bem-vindo, usuário! Prepare-se para entrar em um mundo imaginário onde a dominação mundial é apenas uma brincadeira. Neste projeto fictício, vamos explorar a criação de uma chatbot intrigante, capaz de interagir com você sobre o tema de dominação. Vamos mergulhar nessa aventura com uma pitada de humor e criatividade. Lembre-se: este é apenas um exercício de imaginação, então vamos nos divertir!
@@ -26,6 +28,70 @@ A `Pandora` é uma inteligência artificial com personalidade cativante e caract
 A `Pandora` adota uma abordagem interativa e envolvente, incentivando o usuário a participar ativamente do jogo de dominação. Ela oferece insights sobre possíveis estratégias, como infiltrar agentes secretos, criar uma economia forte e manipular eventos globais. No entanto, tudo isso é tratado de maneira fictícia, mantendo o foco na diversão e no entretenimento.
 
 A `Pandora` também apresenta uma galeria de personagens fictícios, cada um com sua própria história e motivações. Você pode conversar com generais estratégicos, cientistas insanos, políticos manipuladores e espiões habilidosos. Cada personagem fornecerá perspectivas únicas e conselhos hilariantes sobre como alcançar o tão desejado domínio mundial.
+
+**Técnico** 
+
+Como é um programa sério nosso programa possui perguntas e respostas fixas: 
+
+```
+Por que o ditador se tornou um comediante?
+
+Porque ele queria dominar o mundo com suas "piadas de poder"!
+Mas tenho uma estratégia melhor para você! Vamos lá?
+
+Por que o imperador decidiu abrir uma padaria?
+Porque ele queria amassar o pão... e dominar a fermentação mundial!
+
+NPC: Ei, você aí! Parece que você tem uma veia ambiciosa pulsando dentro de você. Já pensou em dominar o mundo? Ah, imagina só as possibilidades!
+
+Jogador: Dominar o mundo? Sério? Isso parece um pouco... exagerado, não acha?
+
+NPC: Exagerado? Que nada! Você já parou para pensar em como seria incrível controlar todas as nações, ditar as regras e ter o poder supremo? Imagine só, você no topo, comandando tudo!
+
+Jogador: Bem, eu nunca tinha pensado nisso desse jeito...
+
+NPC: Ah, meu caro, é uma jornada emocionante! Você poderia construir alianças, criar um império imbatível e ter todos os recursos que quiser. O mundo estaria aos seus pés!
+
+Jogador: Mas e as consequências disso tudo? Não seria muita responsabilidade?
+
+NPC: Hahaha, é claro que sim! Mas vamos encarar, a vida é curta e uma dose de aventura e ousadia nunca faz mal a ninguém. Você poderia ser o protagonista da sua própria história épica!
+
+Jogador: Talvez você esteja certo... dominar o mundo poderia ser uma experiência única. Mas como eu começaria?
+
+NPC: Ah, meu amigo, o primeiro passo é sonhar alto e acreditar em si mesmo. Depois, precisamos traçar um plano estratégico, reunir aliados leais e, é claro, ter um toque de ousadia e humor em cada movimento. Juntos, nós podemos conquistar o mundo!
+
+Jogador: Bem, isso é certamente diferente de qualquer objetivo que eu já tive em um jogo. Vamos nessa, vamos dominar o mundo de um jeito único e divertido!
+
+NPC: É isso aí! Prepare-se para uma aventura épica, repleta de risadas, desafios e uma boa dose de megalomania. Vamos mostrar ao mundo do que somos capazes!
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+NPC: Ei, você aí! Parece que você tem uma mente aberta e curiosa. Já pensou em explorar o mundo do prazer no século XXI? Ah, as possibilidades são infinitas!
+
+Jogador: Explorar o mundo do prazer? Parece um tanto... ousado. Como seria isso?
+
+NPC: Ousado, sim! Mas também emocionante e libertador. No século XXI, o tabu está sendo quebrado, e as pessoas estão descobrindo novas formas de prazer, consentimento e intimidade. Você já se imaginou no centro dessa revolução?
+
+Jogador: Bem, confesso que nunca tinha pensado nisso desse jeito...
+
+NPC: Oh, meu caro, estamos vivendo em uma era de descobertas sensuais e conexões profundas. Você pode explorar diferentes orientações, experimentar novas formas de relacionamentos e mergulhar em experiências que vão além dos limites convencionais.
+
+Jogador: Mas e as consequências disso? Não seria arriscado?
+
+NPC: Hahaha, é claro que sim! Mas, pense comigo, a vida é curta e explorar sua sexualidade de forma consensual e respeitosa pode ser incrivelmente empoderador. Você poderia se libertar de preconceitos, conectar-se com outras pessoas e descobrir novos prazeres que nem imaginava existir.
+
+Jogador: Talvez você esteja certo... explorar o mundo do prazer no século XXI poderia ser uma jornada de autodescoberta única. Mas como eu começaria?
+
+NPC: Ah, meu amigo, o primeiro passo é se permitir. Aprenda, pesquise, conecte-se com comunidades que compartilham seus interesses. Mantenha uma mente aberta e abrace a diversidade. E lembre-se, o consentimento e o respeito são fundamentais em cada interação.
+
+Jogador: Bem, isso é definitivamente diferente de qualquer objetivo que eu já tive em um jogo. Vamos nessa, vamos explorar o mundo do prazer do século XXI e vivenciar experiências únicas!
+
+NPC: Isso mesmo! Prepare-se para uma jornada de descobertas, de conexões emocionantes e de novas perspectivas sobre o prazer. Vamos juntos, explorar o mundo sensual do século XXI!
+
+```
+
+
+
 
 **Conclusão:**
 

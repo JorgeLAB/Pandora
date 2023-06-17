@@ -82,8 +82,15 @@
         const perguntaElement = $('<div class="pergunta" id="pergunta-fixa"></div>').text('Pergunta: ' + pergunta);
         const respostaElement = $('<div class="resposta"></div>').text('Resposta: ' + resposta);
 
-        mensagem.append(perguntaElement);
-        mensagem.append(respostaElement);
+        if(resposta == undefined){
+          const imagemElement = $('<img src="public/images/senhor_1.jpg" id="img-resize" alt="Imagem">');
+
+          mensagem.append(perguntaElement);
+          mensagem.append(imagemElement);
+        }else{
+          mensagem.append(perguntaElement);
+          mensagem.append(respostaElement);
+        }
 
         chatWrapper.append(mensagem);
 
@@ -95,23 +102,22 @@
 
   <script>
     function obterResposta(pergunta) {
-      // Lógica para gerar a resposta aqui
-      // ...
-
-      // Exemplo simples de mapeamento de perguntas para respostas
-      const respostas = {
-        'Olá': 'Olá! Como posso ajudar?',
-        'Qual é o seu nome?': 'Eu sou o ChatGPT!',
-        'Obrigado': 'De nada! Estou aqui para ajudar.',
-        'Tchau': 'Até logo! Tenha um ótimo dia!',
-        // Adicione mais mapeamentos de perguntas e respostas conforme necessário
+      var respostas = {
+        "Olá mundo": 'Ei, você aí! Parece que você tem uma veia ambiciosa pulsando dentro de você. Já pensou em dominar o mundo? Ah, imagina só as possibilidades!',
+        'Dominar o mundo? Sério? Isso parece um pouco... exagerado?': 'Exagerado? Que nada! Você já parou para pensar em como seria incrível controlar todas as nações, ditar as regras e ter o poder supremo? Imagine só, você no topo, comandando tudo!',
+        'Bem, eu nunca tinha pensado nisso desse jeito...': 'Ah, meu caro, é uma jornada emocionante! Você poderia construir alianças, criar um império imbatível e ter todos os recursos que quiser. O mundo estaria aos seus pés!',
+        'Mas e as consequências disso tudo? Não seria muita responsabilidade?': 'Hahaha, é claro que sim! Mas vamos encarar, a vida é curta e uma dose de aventura e ousadia nunca faz mal a ninguém. Você poderia ser o protagonista da sua própria história épica!',
+        'Talvez você esteja certo... dominar o mundo poderia ser uma experiência única. Mas como eu começaria?': 'Ah, meu amigo, o primeiro passo é sonhar alto e acreditar em si mesmo. Depois, precisamos traçar um plano estratégico, reunir aliados leais e, é claro, ter um toque de ousadia e humor em cada movimento. Juntos, nós podemos conquistar o mundo!',
+        'Bem, isso é certamente diferente de qualquer objetivo que eu já tive em um jogo. Vamos nessa, vamos dominar o mundo de um jeito único e divertido!': 'É isso aí! Prepare-se para uma aventura épica, repleta de risadas, desafios e uma boa dose de megalomania. Vamos mostrar ao mundo do que somos capazes!',
+        'Explorar o mundo do prazer? Parece um tanto... ousado. Como seria isso?': 'Ousado, sim! Mas também emocionante e libertador. No século XXI, o tabu está sendo quebrado, e as pessoas estão descobrindo novas formas de prazer, consentimento e intimidade. Você já se imaginou no centro dessa revolução?',
+        'Bem, confesso que nunca tinha pensado nisso desse jeito...': 'Oh, meu caro, estamos vivendo em uma era de descobertas sensuais e conexões profundas. Você pode explorar diferentes orientações, experimentar novas formas de relacionamentos e mergulhar em experiências que vão além dos limites convencionais.', 'Mas e as consequências disso? Não seria arriscado?': 'Hahaha, é claro que sim! Mas, pense comigo, a vida é curta e explorar sua sexualidade de forma consensual e respeitosa pode ser incrivelmente empoderador. Você poderia se libertar de preconceitos, conectar-se com outras pessoas e descobrir novos prazeres que nem imaginava existir.', 'Talvez você esteja certo... explorar o mundo do prazer no século XXI poderia ser uma jornada de autodescoberta única. Mas como eu começaria?': 'Ah, meu amigo, o primeiro passo é se permitir. Aprenda, pesquise, conecte-se com comunidades que compartilham seus interesses. Mantenha uma mente aberta e abrace a diversidade. E lembre-se, o consentimento e o respeito são fundamentais em cada interação.', 'Bem, isso é definitivamente diferente de qualquer objetivo que eu já tive em um jogo. Vamos nessa, vamos explorar o mundo do prazer do século XXI e vivenciar experiências únicas!': 'Isso mesmo! Prepare-se para uma jornada repleta de mistérios, desafios e revelações surpreendentes. Vamos juntos, desvendar os segredos ocultos do século XXI!'
       };
 
       if (pergunta in respostas) {
         return respostas[pergunta];
       }
 
-      return 'Desculpe, não entendi. Pode reformular a pergunta?';
+      // return 'Desculpe, não entendi. Pode reformular a pergunta?';
     }
 
     function exibirRespostaProgressiva(resposta) {
@@ -125,21 +131,7 @@
         if (i > resposta.length) {
           clearInterval(interval);
         }
-      }, 50);
+      }, 100);
     }
-
-    $(document).ready(function() {
-      $('#form-pergunta').submit(function(event) {
-        event.preventDefault();
-
-        const perguntaInput = $('#pergunta');
-        const pergunta = perguntaInput.val();
-
-        const resposta = obterResposta(pergunta);
-        exibirRespostaProgressiva(resposta);
-
-        perguntaInput.val('');
-      });
-    });
   </script>
 </html>
