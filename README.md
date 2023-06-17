@@ -8,6 +8,13 @@
 
 </center>
 
+<center>
+
+![Mente Coletiva](public\images\mente_coletiva.jpg)
+
+</center>
+
+
 ## Resumo
 
 Título: Projeto Pandora
