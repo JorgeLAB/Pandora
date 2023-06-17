@@ -18,7 +18,7 @@ Bem-vindo, usuário! Prepare-se para entrar em um mundo imaginário onde a domin
 
 **Desenvolvimento:**
 
-Imagine um grupo de entusiastas curiosos que, ao invés de conquistar o mundo em si, decidem criar uma chatbot única para discutir e planejar a hipotética dominação mundial. Com uma boa dose de ironia, nasce a "ConquestBot".
+Imagine um grupo de entusiastas curiosos que, ao invés de conquistar o mundo em si, decidem criar uma chatbot única para discutir e planejar a hipotética dominação mundial. Com uma boa dose de ironia, nasce a "`Pandora`".
 
 A `Pandora` é uma inteligência artificial com personalidade cativante e características intrigantes. Ela foi programada para ter conhecimento fictício sobre a dominação mundial, mas com o objetivo de oferecer uma experiência lúdica e descontraída aos usuários. Ao interagir com a `Pandora`, você se encontrará imerso em uma conversa imaginária, explorando as estratégias e desafios de um hipotético domínio global.
 
